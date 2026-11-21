@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formations diagnostic auto en ligne</title>
+<style>
+  :root{--bg:#f6f5f1;--card:#fff;--ink:#1d2329;--muted:#5c6670;--line:#e3e0d8;--accent:#c4541a;--accent2:#1f5f7a;--free:#2f7d4f;}
+  @media (prefers-color-scheme:dark){:root{--bg:#15181b;--card:#1e2226;--ink:#e9e6df;--muted:#9aa3ab;--line:#2f353b;--accent:#e8773d;--accent2:#5aa9c9;--free:#5cbf84;}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+  .wrap{max-width:980px;margin:0 auto;padding:24px 16px 48px}
+  header h1{font-size:1.6rem;margin:0 0 4px}
+  header p{color:var(--muted);margin:0 0 4px}
+  .tag{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:99px;background:var(--line);color:var(--ink);margin:2px 4px 2px 0;white-space:nowrap}
+  .tag.fr{background:var(--accent2);color:#fff}
+  .tag.en{background:#6b5ca5;color:#fff}
+  .tag.free{background:var(--free);color:#fff}
+  .tag.reco{background:var(--accent);color:#fff}
+  h2{font-size:1.15rem;margin:32px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0}
+  .box strong{color:var(--accent)}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.92rem}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--line);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+  tr:last-child td{border-bottom:none}
+  td.name{font-weight:600;min-width:150px}
+  td.name a{color:var(--accent2);text-decoration:none}
+  td.price{white-space:nowrap;font-weight:600}
+  @media (max-width:720px){
+    table,thead,tbody,tr,td{display:block;width:100%}
+    thead{display:none}
+    table{border:none;background:none}
+    tr{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:12px;padding:6px 4px}
+    td{border:none;padding:6px 12px}
+    td::before{content:attr(data-l);display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+    td.name::before{display:none}
+    td.name{font-size:1.05rem}
+  }
+  ol{padding-left:20px;margin:6px 0}
+  ol li{margin:6px 0}
+  .muted{color:var(--muted);font-size:.85rem}
+  footer{margin-top:36px;color:var(--muted);font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Formations diagnostic auto en ligne</h1>
+  <p>Méthodes de recherche de pannes avec une valise de diagnostic — sélection pour un utilisateur de la <strong>Topdon ArtiDiag800 BT</strong>, depuis la Nouvelle-Calédonie.</p>
+  <p class="muted">Prix indicatifs relevés en novembre 2026, à vérifier sur chaque site.</p>
+</header>
+
+<div class="box">
+  <strong>Parcours conseillé :</strong> 1) prise en main de la valise (manuel + vidéos Topdon, gratuit) → 2) méthode et données en direct avec le <strong>TDEA de Formadiesel</strong> (350 €) → 3) vidéos ScannerDanner pour voir la méthode appliquée sur de vraies pannes.
+</div>
+
+<h2>1. Prise en main de la valise (gratuit)</h2>
+<table>
+<thead><tr><th>Ressource</th><th>Langue / prix</th><th>Contenu</th><th>Intérêt</th></tr></thead>
+<tbody>
+<tr>
+  <td class="name"><a href="https://www.topdon.com/products/artidiag800-bt" target="_blank" rel="noopener">Topdon — page ArtiDiag800 BT</a></td>
+  <td data-l="Langue / prix"><span class="tag fr">FR</span><span class="tag free">Gratuit</span></td>
+  <td data-l="Contenu">Manuel multilingue à télécharger, mises à jour logicielles.</td>
+  <td data-l="Intérêt">Connaître les 7 modules : OBD, Scan, Maintenance &amp; Service, ArtiFolder, Repair Info, Setup, Upgrade. Vérifier si la période de mises à jour est encore active.</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.manualslib.fr/manual/103138/Topdon-Artidiag800-Bt.html" target="_blank" rel="noopener">ManualsLib — manuel FR</a></td>
+  <td data-l="Langue / prix"><span class="tag fr">FR</span><span class="tag free">Gratuit</span></td>
+  <td data-l="Contenu">Manuel de l'utilisateur ArtiDiag800 BT en français, consultable en ligne.</td>
+  <td data-l="Intérêt">Découvrir les 16 fonctions d'entretien et de reset (vidange, freins, batterie…).</td>
+</tr>
+<tr>
+  <td class="name">YouTube — Topdon / Topdon Europe</td>
+  <td data-l="Langue / prix"><span class="tag fr">FR</span><span class="tag en">EN</span><span class="tag free">Gratuit</span></td>
+  <td data-l="Contenu">Vidéos de prise en main, fonctions de reset, mises à jour.</td>
+  <td data-l="Intérêt">Rapide à suivre, à son rythme.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>2. Formations en français (en ligne / à distance)</h2>
+<table>
+<thead><tr><th>Organisme / formation</th><th>Prix / durée</th><th>Contenu</th><th>Intérêt</th></tr></thead>
+<tbody>
+<tr>
+  <td class="name"><a href="https://www.emagister.fr/cours/cours_scanner_automobile-tps1258841.htm" target="_blank" rel="noopener">Formadiesel — Technicien en Diagnostic Électronique Automobile (TDEA)</a><br><span class="tag reco">Recommandé</span></td>
+  <td data-l="Prix / durée" class="price">350 € TTC<br><span class="muted">8 mois, à distance</span></td>
+  <td data-l="Contenu">Électronique des moteurs actuels, utilisation de l'outil de diagnostic, scanner appliqué à la recherche de pannes.</td>
+  <td data-l="Intérêt">Le plus adapté à la méthode de recherche de pannes. Meilleur rapport qualité/prix.</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.emagister.fr/cours/cours_diagnostic_automobile-tps587176_4.htm" target="_blank" rel="noopener">Formadiesel — Le Multiplexage Automobile</a></td>
+  <td data-l="Prix / durée" class="price">200 € HT</td>
+  <td data-l="Contenu">Réseaux multiplexés (CAN…), diagnostic au scanner.</td>
+  <td data-l="Intérêt">Module court pour comprendre la communication entre calculateurs.</td>
+</tr>
+<tr>
+  <td class="name">Formadiesel — Électronique des moteurs diesel EDC</td>
+  <td data-l="Prix / durée" class="price">Sur demande<br><span class="muted">6 mois, à distance</span></td>
+  <td data-l="Contenu">Gestion électronique diesel, diagnostic.</td>
+  <td data-l="Intérêt">Utile si beaucoup de diesels à dépanner.</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.emagister.fr/cours/cours_diagnostic_automobile-tps587176_5.htm" target="_blank" rel="noopener">TechnoFormation (iGloo) — Le Moteur à Explosion</a></td>
+  <td data-l="Prix / durée" class="price">280 €<br><span class="muted">8 h sur 45 jours</span></td>
+  <td data-l="Contenu">Fonctionnement moteur, types d'injection, bases du diagnostic.</td>
+  <td data-l="Intérêt">Bonnes animations, idéal pour consolider les bases mécaniques.</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.afpa.fr/formation-continue/formation-a-distance-acquerir-les-notions-de-base-pour-controler-les-circuits-et-organes-electriques-des-vehicules-1" target="_blank" rel="noopener">AFPA — Contrôler les circuits et organes électriques</a></td>
+  <td data-l="Prix / durée" class="price">560 €<br><span class="muted">3 jours, à distance</span></td>
+  <td data-l="Contenu">Méthodes de contrôle des circuits électriques du véhicule.</td>
+  <td data-l="Intérêt">Apprendre à vérifier au multimètre ce que la valise signale. Vérifier les horaires (décalage horaire).</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.afpa.fr/formation-continue/formation-a-distance-connaitre-les-methodes-de-controle-du-circuit-de-charge-de-demarrage-et-de-prechauffage-d-un-vehicule-automobile." target="_blank" rel="noopener">AFPA — Circuit de charge, démarrage, préchauffage</a></td>
+  <td data-l="Prix / durée" class="price">Sur demande<br><span class="muted">3 jours, à distance</span></td>
+  <td data-l="Contenu">Contrôle par simulation de l'alternateur et du circuit de charge.</td>
+  <td data-l="Intérêt">Pannes très courantes en dépannage (batterie, démarreur, alternateur).</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://www.afpa.fr/formation-professionnalisante/maitriser-les-bases-du-diagnostic-automobile-1-1" target="_blank" rel="noopener">AFPA — Maîtriser les bases du Diagnostic Automobile</a></td>
+  <td data-l="Prix / durée" class="price">Sur demande<br><span class="muted">12 semaines, 420 h</span></td>
+  <td data-l="Contenu">Parcours complet, en centre et à distance, avec attestation.</td>
+  <td data-l="Intérêt">Le plus complet, mais lourd pour un usage amateur.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>3. Ressources en anglais (référence pour la méthode)</h2>
+<table>
+<thead><tr><th>Ressource</th><th>Prix</th><th>Contenu</th><th>Intérêt</th></tr></thead>
+<tbody>
+<tr>
+  <td class="name"><a href="https://www.scannerdanner.com/" target="_blank" rel="noopener">ScannerDanner (Paul Danner)</a><br><span class="tag reco">Recommandé</span></td>
+  <td data-l="Prix"><span class="tag free">YouTube gratuit</span><span class="tag">Premium payant</span></td>
+  <td data-l="Contenu">Enseignant-diagnosticien américain : vraies pannes résolues pas à pas. Manuel avec procédures en 24 sections.</td>
+  <td data-l="Intérêt">La référence pour apprendre à raisonner, pas juste lire des codes.</td>
+</tr>
+<tr>
+  <td class="name"><a href="https://azscanners.com.au/Automotive-Diagnostics-Online-Training-Courses" target="_blank" rel="noopener">Prodiags via AZscanners</a></td>
+  <td data-l="Prix">Payant (modules courts)</td>
+  <td data-l="Contenu">Formations courtes en ligne : common rail, hybrides, diagnostic.</td>
+  <td data-l="Intérêt">Proposé à l'Australie / Nouvelle-Zélande : fuseau horaire proche.</td>
+</tr>
+<tr>
+  <td class="name">Snap-on Training Solutions</td>
+  <td data-l="Prix"><span class="tag free">Gratuit</span></td>
+  <td data-l="Contenu">Modules vidéo courts : données figées (freeze frame), tests fonctionnels, OBD.</td>
+  <td data-l="Intérêt">Méthode générale applicable à toute valise.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>4. La méthode à pratiquer à chaque panne</h2>
+<div class="box">
+<ol>
+  <li><strong>Interroger</strong> le propriétaire : quel symptôme, quand, depuis quand.</li>
+  <li><strong>Lire les codes et les données figées</strong> (conditions au moment du défaut), effacer, refaire un essai.</li>
+  <li><strong>Comparer les données en direct</strong> à des valeurs normales.</li>
+  <li><strong>Vérifier physiquement</strong> le circuit : alimentation, masse, signal, connecteur.</li>
+  <li><strong>Réparer et confirmer</strong> par un essai et une nouvelle lecture des codes.</li>
+</ol>
+<p class="muted">Astuce : noter chaque dépannage (code, symptôme, vraie cause, solution) pour se constituer sa propre base de connaissances.</p>
+</div>
+
+<div class="box">
+  <strong>Bon à savoir en Nouvelle-Calédonie :</strong> le CPF ne s'applique pas. Prévoir un paiement direct ou se renseigner sur un financement local (FIAF). Privilégier les formations à suivre à son rythme à cause du décalage horaire.
+</div>
+
+<footer>Synthèse préparée pour HPPROJECTS — novembre 2026.</footer>
+</div>
+</body>
+</html>
